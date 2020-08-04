@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir=>
 
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="进阶"><meta property="og:title" content="进阶" />
-<meta property="og:description" content="进阶面试题 " />
+<meta name="description" content="进阶面试题 #  ">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="进阶" />
+<meta property="og:description" content="进阶面试题 #  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ikingye.github.io/study-rust/docs/appendix/interview/advanced/" />
-<meta property="article:modified_time" content="2020-03-08T00:03:54+08:00" />
+<meta property="article:modified_time" content="2020-08-04T23:49:58+08:00" />
 <title>进阶 | Rust 学习笔记</title>
+<link rel="manifest" href="/study-rust/manifest.json">
 <link rel="icon" href="/study-rust/favicon.png" type="image/x-icon">
-
-
-<link rel="stylesheet" href="/study-rust/book.min.66d2f6926159dd697150bdcd901eead56a7adc9408513ccb9ab553939262dd4c.css" integrity="sha256-ZtL2kmFZ3WlxUL3NkB7q1Wp63JQIUTzLmrVTk5Ji3Uw=">
-
-
-<script defer src="/study-rust/en.search.min.6fc6a410ea3bf4dc895c41ff8c25e2b12d69566e56b8a800cde135839b5ba4bd.js" integrity="sha256-b8akEOo79NyJXEH/jCXisS1pVm5WuKgAzeE1g5tbpL0="></script>
-
+<link rel="stylesheet" href="/study-rust/book.min.054d088be523033861c169923260cc3eacd88fa7d58c8be9c5071b5a83323017.css" integrity="sha256-BU0Ii&#43;UjAzhhwWmSMmDMPqzYj6fVjIvpxQcbWoMyMBc=">
+<script defer src="/study-rust/en.search.min.e970385c08d3469a48a3d1667f11be25ca1a05a3475f8b640b9ee1ad34175e52.js" integrity="sha256-6XA4XAjTRppIo9FmfxG&#43;JcoaBaNHX4tkC57hrTQXXlI="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -26,8 +23,9 @@ https://github.com/alex-shpak/hugo-book
   
 </head>
 
-<body>
-  <input type="checkbox" class="hidden" id="menu-control" />
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
     <aside class="book-menu">
       
@@ -40,267 +38,252 @@ https://github.com/alex-shpak/hugo-book
 
 <div class="book-search">
   <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
-  <div class="book-search-spinner spinner hidden"></div>
+  <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
 
 
 
-
-
-  
-
-  
-  
-
-
-
-
-
- 
-  
-    
-
-
-
-
-  
-  <ul>
-    
-      
-        
-
-  <li >
-    
-      <span>第一部分 Rust 基础</span>
-    
-
-    
+<ul>
+  <li><a href="https://kingye.me" target="_blank" rel="noopener noreferrer">博客</a></li>
+  <li><a href="https://github.com/ikingye" target="_blank" rel="noopener noreferrer">
+    Github  <img src="https://img.shields.io/github/followers/ikingye.svg?label=%E5%85%B3%E6%B3%A8">
+  </a></li>
+  <li><a href="https://weibo.com/kingyip15215" target="_blank" rel="noopener noreferrer">
+    微博  <img src="http://www.sinaimg.cn/blog/developer/wiki/LOGO_16x16.png">
+  </a></li>
+  <li><a href="https://www.zhihu.com/people/wutongyip" target="_blank" rel="noopener noreferrer">知乎</a></li>
+  <li><a href="//shang.qq.com/wpa/qunwpa?idkey=04022778c1def4c4938c6d1e1880f6db3abf67bbfccc9ff74baa4fa9d73c377f&source_id=1_40001" target="_blank" rel="noopener noreferrer">Q 群</a></li>
+</ul>
+<hr />
 
 
 
 
-  
-  <ul>
-    
-      
-        
-
-  <li >
-    
-      
-
-  <a href="/study-rust/docs/basic/practice/" >
-      最佳实践
-  </a>
-
-
-    
-
-    
-
-
-
-
-  
-  <ul>
-    
-      
-        
-
-  <li >
-    
-      
-
-  <a href="/study-rust/docs/basic/practice/spec/" >
-      编程规范
-  </a>
-
-
-    
-
-    
-
-
-
-
-
-
-  </li>
-
-
-      
-    
-  </ul>
-  
-
-
-
-  </li>
-
-
-      
-    
-  </ul>
-  
-
-
-
-  </li>
-
-
-      
-    
-      
-        
-
-  <li >
-    
-      <span>第二部分 Rust 设计</span>
-    
-
-    
 
 
 
 
   
-  <ul>
-    
-  </ul>
-  
-
-
-
-  </li>
-
-
-      
-    
-      
-        
-
-  <li >
-    
-      <span>第三部分 源码实现</span>
-    
-
-    
-
 
 
 
   
-  <ul>
-    
-  </ul>
   
-
-
-
-  </li>
-
-
-      
-    
-      
-        
-
-  <li >
-    
-      <span>第四部分 附录</span>
-    
-
-    
-
-
-
-
   
-  <ul>
-    
-      
-        
-
-  <li >
-    
-      
-
-  <a href="/study-rust/docs/appendix/tutorial/" >
-      教程
-  </a>
-
-
-    
-
-    
-
-
-
-
   
-  <ul>
-    
-  </ul>
-  
-
-
-
-  </li>
-
-
-      
-    
-      
-        
-
-  <li >
-    
-      
-
-  <a href="/study-rust/docs/appendix/interview/" >
-      面试题
-  </a>
-
-
-    
-
-    
-
-
-
 
   
   <ul>
     
       
         <li>
+          
+  
+    <span>第一部分 Rust 基础</span>
+  
 
-  <a href="/study-rust/docs/appendix/interview/basic/" >
-      基础
-  </a>
+          
+  
+  
+  
 
-</li>
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/study-rust/docs/basic/practice/" class="">实践</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/study-rust/docs/basic/practice/spec/" class="collapsed ">编程规范</a>
+  
+
+          
+  
+  
+  
+
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
       
     
       
         <li>
+          
+  
+    <span>第二部分 Rust 设计</span>
+  
 
-  <a href="/study-rust/docs/appendix/interview/advanced/"  class="active">
-      进阶
-  </a>
+          
+  
+  
+  
 
-</li>
+  
+  <ul>
+    
+  </ul>
+  
+
+        </li>
       
     
       
         <li>
+          
+  
+    <span>第三部分 源码实现</span>
+  
 
-  <a href="/study-rust/docs/appendix/interview/expert/" >
-      高阶
-  </a>
+          
+  
+  
+  
 
-</li>
+  
+  <ul>
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>第四部分 附录</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/study-rust/docs/appendix/tutorial/" class="">4.1 教程</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/study-rust/docs/appendix/interview/" class="collapsed ">4.2 面试题</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/study-rust/docs/appendix/interview/basic/" class="">基础</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/study-rust/docs/appendix/interview/advanced/" class="active">进阶</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/study-rust/docs/appendix/interview/expert/" class="">高阶</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/study-rust/docs/appendix/attention/" class="">4.3 关注项目</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/study-rust/docs/appendix/snippet/" class="collapsed ">代码片段</a>
+  
+
+          
+  
+  
+  
+
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
       
     
   </ul>
@@ -308,53 +291,6 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  </li>
-
-
-      
-    
-      
-        
-
-  <li >
-    
-      
-
-  <a href="/study-rust/docs/appendix/snippet/" >
-      代码片段
-  </a>
-
-
-    
-
-    
-
-
-
-
-
-
-  </li>
-
-
-      
-    
-  </ul>
-  
-
-
-
-  </li>
-
-
-      
-    
-  </ul>
-  
-
-
-
-  
 
 
 
@@ -365,6 +301,13 @@ https://github.com/alex-shpak/hugo-book
 
 
 
+
+<hr />
+<ul>
+  <li><a href="https://cdn.jsdelivr.net/gh/ikingye/imagehost/picgo/20200417021727.png" target="_blank" rel="noopener noreferrer">关注微信公众号</a></li>
+  <li><a href="https://cdn.jsdelivr.net/gh/ikingye/imagehost/picgo/20200428110046.png" target="_blank" rel="noopener noreferrer">请我喝饮料</a></li>
+  <li><a href="https://cdn.jsdelivr.net/gh/ikingye/imagehost/picgo/20200417022040.png" target="_blank" rel="noopener noreferrer">加我微信</a></li>
+</ul>
 
 </nav>
 
@@ -388,15 +331,16 @@ https://github.com/alex-shpak/hugo-book
   <strong>进阶</strong>
 
   <label for="toc-control">
+    
     <img src="/study-rust/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
   </label>
 </div>
 
 
   
-    <input type="checkbox" class="hidden" id="toc-control" />
-    <aside class="hidden clearfix">
-      
+  <aside class="hidden clearfix">
+    
   <nav id="TableOfContents">
   <ul>
     <li><a href="#进阶面试题">进阶面试题</a></li>
@@ -404,27 +348,30 @@ https://github.com/alex-shpak/hugo-book
 </nav>
 
 
-    </aside>
+  </aside>
   
  
       </header>
 
       
-<article class="markdown"><h1 id="进阶面试题">进阶面试题</h1>
+      
+  <article class="markdown"><h1 id="进阶面试题">
+  进阶面试题
+  <a class="anchor" href="#%e8%bf%9b%e9%98%b6%e9%9d%a2%e8%af%95%e9%a2%98">#</a>
+</h1>
 </article>
  
+      
 
       <footer class="book-footer">
         
-  <div class="flex justify-between">
+  <div class="flex flex-wrap justify-between">
 
 
 
-  <div>
-    
-    <a class="flex align-center" href="https://github.com/ikingye/note/commit/09575fa92215e5e34f34cb7f20b8959afc90f589" title='Last modified by yewang | 2020-03-08' target="_blank" rel="noopener">
+  <div><a class="flex align-center" href="https://github.com/ikingye/study-rust/commit/9bdea51ec180e28284f215eb5811ed5578d178fb" title='Last modified by yewang | 2020-08-04' target="_blank" rel="noopener">
       <img src="/study-rust/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>2020-03-08</span>
+      <span>2020-08-04</span>
     </a>
   </div>
 
@@ -434,10 +381,13 @@ https://github.com/alex-shpak/hugo-book
 
  
         
+      </footer>
+
+      
   
   <div class="book-comments">
 <script src="https://utteranc.es/client.js"
-  repo="ikingye/study-rust"
+  repo="ikingye/note"
   issue-term="pathname"
   theme="github-light"
   crossorigin="anonymous"
@@ -447,8 +397,8 @@ https://github.com/alex-shpak/hugo-book
 </div>
   
  
-      </footer>
-      
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
 
     
@@ -466,7 +416,7 @@ https://github.com/alex-shpak/hugo-book
   </main>
 
   
-<a href="https://github.com/ikingye/study-rust" 
+<a href="https://github.com/ikingye/note"
 class="github-corner" aria-label="View source on GitHub">
 <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
   <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -474,6 +424,7 @@ class="github-corner" aria-label="View source on GitHub">
   <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
 </svg></a>
 <style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
 </body>
 
 </html>
