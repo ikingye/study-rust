@@ -27,14 +27,5 @@
       <description>进阶面试题 #  </description>
     </item>
     
-    <item>
-      <title>高阶</title>
-      <link>https://ikingye.github.io/study-rust/docs/appendix/interview/expert/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ikingye.github.io/study-rust/docs/appendix/interview/expert/</guid>
-      <description>高阶面试题 #  </description>
-    </item>
-    
   </channel>
 </rss>

@@ -28,24 +28,23 @@
     </item>
     
     <item>
-      <title>高阶</title>
-      <link>https://ikingye.github.io/study-rust/docs/appendix/interview/expert/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ikingye.github.io/study-rust/docs/appendix/interview/expert/</guid>
-      <description>高阶面试题 #  </description>
-    </item>
-    
-    <item>
       <title>4.1 教程</title>
       <link>https://ikingye.github.io/study-rust/docs/appendix/tutorial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikingye.github.io/study-rust/docs/appendix/tutorial/</guid>
-      <description>教程 #  经典 #  The Rust Programming Language #  The most comprehensive resource for learning Rust, but a bit theoretical sometimes. You will be using this along with Rustlings!
+      <description>教程 #  基础 #  Learn Rust in Y minutes #  The Rust Programming Language #  The most comprehensive resource for learning Rust, but a bit theoretical sometimes. You will be using this along with Rustlings!
 Rust by Example #  Learn Rust by solving little exercises! It&amp;rsquo;s almost like rustlings, but online.
-rust-lang/rustlings #  Small exercises to get you used to reading and writing Rust code!
- 基础 #  进阶 #  </description>
+rust-lang/rustlings #  Small exercises to get you used to reading and writing Rust code!</description>
+    </item>
+    
+    <item>
+      <title>包管理</title>
+      <link>https://ikingye.github.io/study-rust/docs/basic/others/pm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/study-rust/docs/basic/others/pm/</guid>
+      <description>Rust 包管理 #  Cargo #  the Rust build tool and package manager</description>
     </item>
     
     <item>
@@ -60,6 +59,24 @@ servo/servo #  The Servo Browser Engine https://servo.org/
 rajasekarv/vega #  A new arguably faster implementation of Apache Spark from scratch in Rust
  web framework #  yewstack/yew #  Rust / Wasm framework for building client web apps https://yew.rs
 SergioBenitez/Rocket #  A web framework for Rust.</description>
+    </item>
+    
+    <item>
+      <title>历史</title>
+      <link>https://ikingye.github.io/study-rust/docs/basic/others/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/study-rust/docs/basic/others/history/</guid>
+      <description>Rust 历史 #  </description>
+    </item>
+    
+    <item>
+      <title>版本</title>
+      <link>https://ikingye.github.io/study-rust/docs/basic/others/version/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikingye.github.io/study-rust/docs/basic/others/version/</guid>
+      <description>版本 #  rust-lang/rust   版本历史 #  2 #  1 #  1.46 #  1.45 #  1.0 (2015-05-15) #   0 #    版本管理 #  rustup #  # 升级 rustup update   </description>
     </item>
     
   </channel>
