@@ -12,7 +12,7 @@
       <link>https://kingye.me/study-rust/docs/appendix/tutorial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kingye.me/study-rust/docs/appendix/tutorial/</guid>
-      <description>教程 # Rust 语言入门有哪些书？ 基础 # Learn Rust in Y minutes # The Rust Programming Language # rust-lang/book The most comprehensive resource for learning Rust, but a bit theoretical sometimes. You will be using this along with Rustlings!&#xA;Rust by Example # rust-lang/rust-by-example Learn Rust by solving little exercises! It&amp;rsquo;s almost like rustlings, but online.&#xA;rustlings # rust-lang/rustlings Small exercises to get you used to reading and writing Rust code!</description>
+      <description>教程 # Rust 语言入门有哪些书？ 基础 # Learn Rust in Y minutes # 100 Exercises To Learn Rust # mainmatter/100-exercises-to-learn-rust The Rust Programming Language # rust-lang/book The most comprehensive resource for learning Rust, but a bit theoretical sometimes. You will be using this along with Rustlings!&#xA;Rust by Example # rust-lang/rust-by-example Learn Rust by solving little exercises! It&amp;rsquo;s almost like rustlings, but online.&#xA;rustlings # rust-lang/rustlings Small exercises to get you used to reading and writing Rust code!</description>
     </item>
     <item>
       <title>4.3 关注项目</title>
