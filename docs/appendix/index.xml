@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>第四部分 附录 on Rust 学习笔记</title>
+    <link>https://kingye.me/study-rust/docs/appendix/</link>
+    <description>Recent content in 第四部分 附录 on Rust 学习笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://kingye.me/study-rust/docs/appendix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4.1 教程</title>
+      <link>https://kingye.me/study-rust/docs/appendix/tutorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kingye.me/study-rust/docs/appendix/tutorial/</guid>
+      <description>教程 # Rust 语言入门有哪些书？ 基础 # Learn Rust in Y minutes # 100 Exercises To Learn Rust # mainmatter/100-exercises-to-learn-rust The Rust Programming Language # rust-lang/book The most comprehensive resource for learning Rust, but a bit theoretical sometimes. You will be using this along with Rustlings!&#xA;Rust by Example # rust-lang/rust-by-example Learn Rust by solving little exercises! It&amp;rsquo;s almost like rustlings, but online.&#xA;rustlings # rust-lang/rustlings Small exercises to get you used to reading and writing Rust code!</description>
+    </item>
+    <item>
+      <title>4.3 关注项目</title>
+      <link>https://kingye.me/study-rust/docs/appendix/attention/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kingye.me/study-rust/docs/appendix/attention/</guid>
+      <description>关注项目 # rust-lang/rust # Empowering everyone to build reliable and efficient software. https://www.rust-lang.org&#xA;redox-os/redox # Redox is an operating system written in Rust&#xA;servo/servo # The Servo Browser Engine&#xA;https://servo.org/&#xA;rajasekarv/vega # A new arguably faster implementation of Apache Spark from scratch in Rust&#xA;Rust version of THU uCore OS Plus. # rcore-os/rCore web framework # yewstack/yew # Rust / Wasm framework for building client web apps https://yew.rs&#xA;SergioBenitez/Rocket # A web framework for Rust.</description>
+    </item>
+  </channel>
+</rss>
