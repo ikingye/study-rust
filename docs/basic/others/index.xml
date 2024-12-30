@@ -1,32 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>1.4 其他 on Rust 学习笔记</title>
-    <link>https://kingye.me/study-rust/docs/basic/others/</link>
-    <description>Recent content in 1.4 其他 on Rust 学习笔记</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="https://kingye.me/study-rust/docs/basic/others/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>包管理</title>
-      <link>https://kingye.me/study-rust/docs/basic/others/pm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kingye.me/study-rust/docs/basic/others/pm/</guid>
-      <description>&lt;h1 id=&#34;rust-包管理&#34;&gt;&#xA;  Rust 包管理&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#rust-%e5%8c%85%e7%ae%a1%e7%90%86&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;cargo&#34;&gt;&#xA;  Cargo&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#cargo&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;the Rust build tool and package manager&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>历史</title>
-      <link>https://kingye.me/study-rust/docs/basic/others/history/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kingye.me/study-rust/docs/basic/others/history/</guid>
-      <description>&lt;h1 id=&#34;rust-历史&#34;&gt;&#xA;  Rust 历史&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#rust-%e5%8e%86%e5%8f%b2&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>版本</title>
-      <link>https://kingye.me/study-rust/docs/basic/others/version/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kingye.me/study-rust/docs/basic/others/version/</guid>
-      <description>&lt;h1 id=&#34;版本&#34;&gt;&#xA;  版本&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%89%88%e6%9c%ac&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/rust-lang/rust&#34;&gt;rust-lang/rust&lt;/a&gt; &lt;img src=&#34;https://img.shields.io/github/stars/rust-lang/rust.svg&#34; alt=&#34;Github stars&#34; /&gt; &lt;img src=&#34;https://img.shields.io/github/languages/top/rust-lang/rust.svg&#34; alt=&#34;Language&#34; /&gt; &lt;img src=&#34;https://img.shields.io/github/v/tag/rust-lang/rust.svg?sort=semver&#34; alt=&#34;Last Tag&#34; /&gt; &lt;img src=&#34;https://img.shields.io/github/last-commit/rust-lang/rust.svg&#34; alt=&#34;Last commit&#34; /&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;版本历史&#34;&gt;&#xA;  版本历史&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%89%88%e6%9c%ac%e5%8e%86%e5%8f%b2&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;2&#34;&gt;&#xA;  2&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#2&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;1&#34;&gt;&#xA;  1&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#1&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;h4 id=&#34;146&#34;&gt;&#xA;  1.46&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#146&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;145&#34;&gt;&#xA;  1.45&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#145&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;10-2015-05-15&#34;&gt;&#xA;  1.0 (2015-05-15)&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#10-2015-05-15&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;0&#34;&gt;&#xA;  0&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;hr&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;版本管理&#34;&gt;&#xA;  版本管理&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%89%88%e6%9c%ac%e7%ae%a1%e7%90%86&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;rustup&#34;&gt;&#xA;  rustup&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#rustup&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 升级&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rustup update&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;&#xA;&lt;hr&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1.4 其他 on Rust 学习笔记</title><link>https://kingye.me/study-rust/docs/basic/others/</link><description>Recent content in 1.4 其他 on Rust 学习笔记</description><generator>Hugo</generator><language>en</language><atom:link href="https://kingye.me/study-rust/docs/basic/others/index.xml" rel="self" type="application/rss+xml"/><item><title>包管理</title><link>https://kingye.me/study-rust/docs/basic/others/pm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kingye.me/study-rust/docs/basic/others/pm/</guid><description>&lt;h1 id="rust-包管理">
+ Rust 包管理
+ &lt;a class="anchor" href="#rust-%e5%8c%85%e7%ae%a1%e7%90%86">#&lt;/a>
+&lt;/h1>
+&lt;h2 id="cargo">
+ Cargo
+ &lt;a class="anchor" href="#cargo">#&lt;/a>
+&lt;/h2>
+&lt;p>the Rust build tool and package manager&lt;/p></description></item><item><title>历史</title><link>https://kingye.me/study-rust/docs/basic/others/history/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kingye.me/study-rust/docs/basic/others/history/</guid><description>&lt;h1 id="rust-历史">
+ Rust 历史
+ &lt;a class="anchor" href="#rust-%e5%8e%86%e5%8f%b2">#&lt;/a>
+&lt;/h1></description></item><item><title>版本</title><link>https://kingye.me/study-rust/docs/basic/others/version/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kingye.me/study-rust/docs/basic/others/version/</guid><description>&lt;h1 id="版本">
+ 版本
+ &lt;a class="anchor" href="#%e7%89%88%e6%9c%ac">#&lt;/a>
+&lt;/h1>
+&lt;p>&lt;a href="https://github.com/rust-lang/rust">rust-lang/rust&lt;/a> &lt;img src="https://img.shields.io/github/stars/rust-lang/rust.svg" alt="Github stars" /> &lt;img src="https://img.shields.io/github/languages/top/rust-lang/rust.svg" alt="Language" /> &lt;img src="https://img.shields.io/github/v/tag/rust-lang/rust.svg?sort=semver" alt="Last Tag" /> &lt;img src="https://img.shields.io/github/last-commit/rust-lang/rust.svg" alt="Last commit" />&lt;/p>
+&lt;hr>
+&lt;hr>
+&lt;h2 id="版本历史">
+ 版本历史
+ &lt;a class="anchor" href="#%e7%89%88%e6%9c%ac%e5%8e%86%e5%8f%b2">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="2">
+ 2
+ &lt;a class="anchor" href="#2">#&lt;/a>
+&lt;/h3>
+&lt;h3 id="1">
+ 1
+ &lt;a class="anchor" href="#1">#&lt;/a>
+&lt;/h3>
+&lt;h4 id="146">
+ 1.46
+ &lt;a class="anchor" href="#146">#&lt;/a>
+&lt;/h4>
+&lt;h4 id="145">
+ 1.45
+ &lt;a class="anchor" href="#145">#&lt;/a>
+&lt;/h4>
+&lt;h4 id="10-2015-05-15">
+ 1.0 (2015-05-15)
+ &lt;a class="anchor" href="#10-2015-05-15">#&lt;/a>
+&lt;/h4>
+&lt;hr>
+&lt;h3 id="0">
+ 0
+ &lt;a class="anchor" href="#0">#&lt;/a>
+&lt;/h3>
+&lt;hr>
+&lt;hr>
+&lt;h2 id="版本管理">
+ 版本管理
+ &lt;a class="anchor" href="#%e7%89%88%e6%9c%ac%e7%ae%a1%e7%90%86">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="rustup">
+ rustup
+ &lt;a class="anchor" href="#rustup">#&lt;/a>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 升级&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rustup update
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;hr></description></item></channel></rss>
