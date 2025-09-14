@@ -1,57 +1,79 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>第四部分 附录 on Rust 学习笔记</title><link>https://kingye.me/study-rust/docs/appendix/</link><description>Recent content in 第四部分 附录 on Rust 学习笔记</description><generator>Hugo</generator><language>en</language><atom:link href="https://kingye.me/study-rust/docs/appendix/index.xml" rel="self" type="application/rss+xml"/><item><title>4.1 教程</title><link>https://kingye.me/study-rust/docs/appendix/tutorial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kingye.me/study-rust/docs/appendix/tutorial/</guid><description>&lt;h1 id="教程">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>第四部分 附录 on Rust 学习笔记</title><link>https://kingye.me/study-rust/docs/appendix/</link><description>Recent content in 第四部分 附录 on Rust 学习笔记</description><generator>Hugo</generator><language>en</language><atom:link href="https://kingye.me/study-rust/docs/appendix/index.xml" rel="self" type="application/rss+xml"/><item><title>4.1 教程</title><link>https://kingye.me/study-rust/docs/appendix/tutorial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kingye.me/study-rust/docs/appendix/tutorial/</guid><description>&lt;h1 id="教程"&gt;
  教程
- &lt;a class="anchor" href="#%e6%95%99%e7%a8%8b">#&lt;/a>
-&lt;/h1>
-&lt;ul>
-&lt;li>&lt;a href="https://www.zhihu.com/question/309638391">Rust 语言入门有哪些书？&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="基础">
+ 
+ &lt;a class="anchor" href="#%e6%95%99%e7%a8%8b"&gt;#&lt;/a&gt;
+ 
+&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.zhihu.com/question/309638391"&gt;Rust 语言入门有哪些书？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="基础"&gt;
  基础
- &lt;a class="anchor" href="#%e5%9f%ba%e7%a1%80">#&lt;/a>
-&lt;/h2>
-&lt;h3 id="learn-rust-in-y-minuteshttpslearnxinyminutescomdocsrust">
- &lt;a href="https://learnxinyminutes.com/docs/rust/">Learn Rust in Y minutes&lt;/a>
- &lt;a class="anchor" href="#learn-rust-in-y-minuteshttpslearnxinyminutescomdocsrust">#&lt;/a>
-&lt;/h3>
-&lt;h3 id="100-exercises-to-learn-rusthttpsrust-exercisescom">
- &lt;a href="https://rust-exercises.com/">100 Exercises To Learn Rust&lt;/a>
- &lt;a class="anchor" href="#100-exercises-to-learn-rusthttpsrust-exercisescom">#&lt;/a>
-&lt;/h3>
-&lt;p>&lt;a href="https://github.com/mainmatter/100-exercises-to-learn-rust">mainmatter/100-exercises-to-learn-rust&lt;/a> &lt;img src="https://img.shields.io/github/stars/mainmatter/100-exercises-to-learn-rust.svg" alt="Github stars" /> &lt;img src="https://img.shields.io/github/forks/mainmatter/100-exercises-to-learn-rust.svg" alt="Github forks" /> &lt;img src="https://img.shields.io/github/languages/top/mainmatter/100-exercises-to-learn-rust.svg" alt="Language" /> &lt;img src="https://img.shields.io/github/v/tag/mainmatter/100-exercises-to-learn-rust.svg?sort=semver" alt="Last Tag" /> &lt;img src="https://img.shields.io/github/last-commit/mainmatter/100-exercises-to-learn-rust.svg" alt="Last commit" />&lt;/p>
-&lt;h3 id="the-rust-programming-languagehttpsdocrust-langorgbookindexhtml">
- &lt;a href="https://doc.rust-lang.org/book/index.html">The Rust Programming Language&lt;/a>
- &lt;a class="anchor" href="#the-rust-programming-languagehttpsdocrust-langorgbookindexhtml">#&lt;/a>
-&lt;/h3>
-&lt;p>&lt;a href="https://github.com/rust-lang/book">rust-lang/book&lt;/a> &lt;img src="https://img.shields.io/github/stars/rust-lang/book.svg" alt="Github stars" /> &lt;img src="https://img.shields.io/github/languages/top/rust-lang/book.svg" alt="Language" /> &lt;img src="https://img.shields.io/github/v/tag/rust-lang/book.svg?sort=semver" alt="Last Tag" /> &lt;img src="https://img.shields.io/github/last-commit/rust-lang/book.svg" alt="Last commit" />&lt;/p>
-&lt;p>The most comprehensive resource for learning Rust, but a bit theoretical sometimes.
-You will be using this along with Rustlings!&lt;/p>
-&lt;h3 id="rust-by-examplehttpsdocrust-langorgrust-by-exampleindexhtml">
- &lt;a href="https://doc.rust-lang.org/rust-by-example/index.html">Rust by Example&lt;/a>
- &lt;a class="anchor" href="#rust-by-examplehttpsdocrust-langorgrust-by-exampleindexhtml">#&lt;/a>
-&lt;/h3>
-&lt;p>&lt;a href="https://github.com/rust-lang/rust-by-example">rust-lang/rust-by-example&lt;/a> &lt;img src="https://img.shields.io/github/stars/rust-lang/rust-by-example.svg" alt="Github stars" /> &lt;img src="https://img.shields.io/github/languages/top/rust-lang/rust-by-example.svg" alt="Language" /> &lt;img src="https://img.shields.io/github/v/tag/rust-lang/rust-by-example.svg?sort=semver" alt="Last Tag" /> &lt;img src="https://img.shields.io/github/last-commit/rust-lang/rust-by-example.svg" alt="Last commit" />&lt;/p></description></item><item><title>4.3 关注项目</title><link>https://kingye.me/study-rust/docs/appendix/attention/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kingye.me/study-rust/docs/appendix/attention/</guid><description>&lt;h1 id="关注项目">
+ 
+ &lt;a class="anchor" href="#%e5%9f%ba%e7%a1%80"&gt;#&lt;/a&gt;
+ 
+&lt;/h2&gt;
+&lt;h3 id="learn-rust-in-y-minutes"&gt;
+ &lt;a href="https://learnxinyminutes.com/docs/rust/"&gt;Learn Rust in Y minutes&lt;/a&gt;
+ 
+ &lt;a class="anchor" href="#learn-rust-in-y-minutes"&gt;#&lt;/a&gt;
+ 
+&lt;/h3&gt;
+&lt;h3 id="100-exercises-to-learn-rust"&gt;
+ &lt;a href="https://rust-exercises.com/"&gt;100 Exercises To Learn Rust&lt;/a&gt;
+ 
+ &lt;a class="anchor" href="#100-exercises-to-learn-rust"&gt;#&lt;/a&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/mainmatter/100-exercises-to-learn-rust"&gt;mainmatter/100-exercises-to-learn-rust&lt;/a&gt; &lt;img src="https://img.shields.io/github/stars/mainmatter/100-exercises-to-learn-rust.svg" alt="Github stars" /&gt; &lt;img src="https://img.shields.io/github/forks/mainmatter/100-exercises-to-learn-rust.svg" alt="Github forks" /&gt; &lt;img src="https://img.shields.io/github/languages/top/mainmatter/100-exercises-to-learn-rust.svg" alt="Language" /&gt; &lt;img src="https://img.shields.io/github/v/tag/mainmatter/100-exercises-to-learn-rust.svg?sort=semver" alt="Last Tag" /&gt; &lt;img src="https://img.shields.io/github/last-commit/mainmatter/100-exercises-to-learn-rust.svg" alt="Last commit" /&gt;&lt;/p&gt;
+&lt;h3 id="the-rust-programming-language"&gt;
+ &lt;a href="https://doc.rust-lang.org/book/index.html"&gt;The Rust Programming Language&lt;/a&gt;
+ 
+ &lt;a class="anchor" href="#the-rust-programming-language"&gt;#&lt;/a&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/rust-lang/book"&gt;rust-lang/book&lt;/a&gt; &lt;img src="https://img.shields.io/github/stars/rust-lang/book.svg" alt="Github stars" /&gt; &lt;img src="https://img.shields.io/github/languages/top/rust-lang/book.svg" alt="Language" /&gt; &lt;img src="https://img.shields.io/github/v/tag/rust-lang/book.svg?sort=semver" alt="Last Tag" /&gt; &lt;img src="https://img.shields.io/github/last-commit/rust-lang/book.svg" alt="Last commit" /&gt;&lt;/p&gt;
+&lt;p&gt;The most comprehensive resource for learning Rust, but a bit theoretical sometimes.
+You will be using this along with Rustlings!&lt;/p&gt;
+&lt;h3 id="rust-by-example"&gt;
+ &lt;a href="https://doc.rust-lang.org/rust-by-example/index.html"&gt;Rust by Example&lt;/a&gt;
+ 
+ &lt;a class="anchor" href="#rust-by-example"&gt;#&lt;/a&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/rust-lang/rust-by-example"&gt;rust-lang/rust-by-example&lt;/a&gt; &lt;img src="https://img.shields.io/github/stars/rust-lang/rust-by-example.svg" alt="Github stars" /&gt; &lt;img src="https://img.shields.io/github/languages/top/rust-lang/rust-by-example.svg" alt="Language" /&gt; &lt;img src="https://img.shields.io/github/v/tag/rust-lang/rust-by-example.svg?sort=semver" alt="Last Tag" /&gt; &lt;img src="https://img.shields.io/github/last-commit/rust-lang/rust-by-example.svg" alt="Last commit" /&gt;&lt;/p&gt;</description></item><item><title>4.3 关注项目</title><link>https://kingye.me/study-rust/docs/appendix/attention/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kingye.me/study-rust/docs/appendix/attention/</guid><description>&lt;h1 id="关注项目"&gt;
  关注项目
- &lt;a class="anchor" href="#%e5%85%b3%e6%b3%a8%e9%a1%b9%e7%9b%ae">#&lt;/a>
-&lt;/h1>
-&lt;h2 id="rust-langrusthttpsgithubcomrust-langrust-github-starshttpsimgshieldsiogithubstarsrust-langrustsvg-github-forkshttpsimgshieldsiogithubforksrust-langrustsvg-languagehttpsimgshieldsiogithublanguagestoprust-langrustsvg-last-taghttpsimgshieldsiogithubvtagrust-langrustsvgsortsemver-last-commithttpsimgshieldsiogithublast-commitrust-langrustsvg">
- &lt;a href="https://github.com/rust-lang/rust">rust-lang/rust&lt;/a> &lt;img src="https://img.shields.io/github/stars/rust-lang/rust.svg" alt="Github stars" /> &lt;img src="https://img.shields.io/github/forks/rust-lang/rust.svg" alt="Github forks" /> &lt;img src="https://img.shields.io/github/languages/top/rust-lang/rust.svg" alt="Language" /> &lt;img src="https://img.shields.io/github/v/tag/rust-lang/rust.svg?sort=semver" alt="Last Tag" /> &lt;img src="https://img.shields.io/github/last-commit/rust-lang/rust.svg" alt="Last commit" />
- &lt;a class="anchor" href="#rust-langrusthttpsgithubcomrust-langrust-github-starshttpsimgshieldsiogithubstarsrust-langrustsvg-github-forkshttpsimgshieldsiogithubforksrust-langrustsvg-languagehttpsimgshieldsiogithublanguagestoprust-langrustsvg-last-taghttpsimgshieldsiogithubvtagrust-langrustsvgsortsemver-last-commithttpsimgshieldsiogithublast-commitrust-langrustsvg">#&lt;/a>
-&lt;/h2>
-&lt;p>Empowering everyone to build reliable and efficient software.
-&lt;a href="https://www.rust-lang.org">https://www.rust-lang.org&lt;/a>&lt;/p>
-&lt;h2 id="redox-osredoxhttpsgithubcomredox-osredox-github-starshttpsimgshieldsiogithubstarsredox-osredoxsvg-languagehttpsimgshieldsiogithublanguagestopredox-osredoxsvg-last-taghttpsimgshieldsiogithubvtagredox-osredoxsvgsortsemver-last-commithttpsimgshieldsiogithublast-commitredox-osredoxsvg">
- &lt;a href="https://github.com/redox-os/redox">redox-os/redox&lt;/a> &lt;img src="https://img.shields.io/github/stars/redox-os/redox.svg" alt="Github stars" /> &lt;img src="https://img.shields.io/github/languages/top/redox-os/redox.svg" alt="Language" /> &lt;img src="https://img.shields.io/github/v/tag/redox-os/redox.svg?sort=semver" alt="Last Tag" /> &lt;img src="https://img.shields.io/github/last-commit/redox-os/redox.svg" alt="Last commit" />
- &lt;a class="anchor" href="#redox-osredoxhttpsgithubcomredox-osredox-github-starshttpsimgshieldsiogithubstarsredox-osredoxsvg-languagehttpsimgshieldsiogithublanguagestopredox-osredoxsvg-last-taghttpsimgshieldsiogithubvtagredox-osredoxsvgsortsemver-last-commithttpsimgshieldsiogithublast-commitredox-osredoxsvg">#&lt;/a>
-&lt;/h2>
-&lt;p>Redox is an operating system written in Rust&lt;/p>
-&lt;h2 id="servoservohttpsgithubcomservoservo-github-starshttpsimgshieldsiogithubstarsservoservosvg-languagehttpsimgshieldsiogithublanguagestopservoservosvg-last-taghttpsimgshieldsiogithubvtagservoservosvgsortsemver-last-commithttpsimgshieldsiogithublast-commitservoservosvg">
- &lt;a href="https://github.com/servo/servo">servo/servo&lt;/a> &lt;img src="https://img.shields.io/github/stars/servo/servo.svg" alt="Github stars" /> &lt;img src="https://img.shields.io/github/languages/top/servo/servo.svg" alt="Language" /> &lt;img src="https://img.shields.io/github/v/tag/servo/servo.svg?sort=semver" alt="Last Tag" /> &lt;img src="https://img.shields.io/github/last-commit/servo/servo.svg" alt="Last commit" />
- &lt;a class="anchor" href="#servoservohttpsgithubcomservoservo-github-starshttpsimgshieldsiogithubstarsservoservosvg-languagehttpsimgshieldsiogithublanguagestopservoservosvg-last-taghttpsimgshieldsiogithubvtagservoservosvgsortsemver-last-commithttpsimgshieldsiogithublast-commitservoservosvg">#&lt;/a>
-&lt;/h2>
-&lt;p>The Servo Browser Engine&lt;/p>
-&lt;p>&lt;a href="https://servo.org/">https://servo.org/&lt;/a>&lt;/p>
-&lt;h2 id="rajasekarvvegahttpsgithubcomrajasekarvvega-github-starshttpsimgshieldsiogithubstarsrajasekarvvegasvg-languagehttpsimgshieldsiogithublanguagestoprajasekarvvegasvg-last-taghttpsimgshieldsiogithubvtagrajasekarvvegasvgsortsemver-last-commithttpsimgshieldsiogithublast-commitrajasekarvvegasvg">
- &lt;a href="https://github.com/rajasekarv/vega">rajasekarv/vega&lt;/a> &lt;img src="https://img.shields.io/github/stars/rajasekarv/vega.svg" alt="Github stars" /> &lt;img src="https://img.shields.io/github/languages/top/rajasekarv/vega.svg" alt="Language" /> &lt;img src="https://img.shields.io/github/v/tag/rajasekarv/vega.svg?sort=semver" alt="Last Tag" /> &lt;img src="https://img.shields.io/github/last-commit/rajasekarv/vega.svg" alt="Last commit" />
- &lt;a class="anchor" href="#rajasekarvvegahttpsgithubcomrajasekarvvega-github-starshttpsimgshieldsiogithubstarsrajasekarvvegasvg-languagehttpsimgshieldsiogithublanguagestoprajasekarvvegasvg-last-taghttpsimgshieldsiogithubvtagrajasekarvvegasvgsortsemver-last-commithttpsimgshieldsiogithublast-commitrajasekarvvegasvg">#&lt;/a>
-&lt;/h2>
-&lt;p>A new arguably faster implementation of Apache Spark from scratch in Rust&lt;/p></description></item></channel></rss>
+ 
+ &lt;a class="anchor" href="#%e5%85%b3%e6%b3%a8%e9%a1%b9%e7%9b%ae"&gt;#&lt;/a&gt;
+ 
+&lt;/h1&gt;
+&lt;h2 id="rust-langrust-github-stars-github-forks-language-last-tag-last-commit"&gt;
+ &lt;a href="https://github.com/rust-lang/rust"&gt;rust-lang/rust&lt;/a&gt; &lt;img src="https://img.shields.io/github/stars/rust-lang/rust.svg" alt="Github stars" /&gt; &lt;img src="https://img.shields.io/github/forks/rust-lang/rust.svg" alt="Github forks" /&gt; &lt;img src="https://img.shields.io/github/languages/top/rust-lang/rust.svg" alt="Language" /&gt; &lt;img src="https://img.shields.io/github/v/tag/rust-lang/rust.svg?sort=semver" alt="Last Tag" /&gt; &lt;img src="https://img.shields.io/github/last-commit/rust-lang/rust.svg" alt="Last commit" /&gt;
+ 
+ &lt;a class="anchor" href="#rust-langrust-github-stars-github-forks-language-last-tag-last-commit"&gt;#&lt;/a&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Empowering everyone to build reliable and efficient software.
+&lt;a href="https://www.rust-lang.org"&gt;https://www.rust-lang.org&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="redox-osredox-github-stars-language-last-tag-last-commit"&gt;
+ &lt;a href="https://github.com/redox-os/redox"&gt;redox-os/redox&lt;/a&gt; &lt;img src="https://img.shields.io/github/stars/redox-os/redox.svg" alt="Github stars" /&gt; &lt;img src="https://img.shields.io/github/languages/top/redox-os/redox.svg" alt="Language" /&gt; &lt;img src="https://img.shields.io/github/v/tag/redox-os/redox.svg?sort=semver" alt="Last Tag" /&gt; &lt;img src="https://img.shields.io/github/last-commit/redox-os/redox.svg" alt="Last commit" /&gt;
+ 
+ &lt;a class="anchor" href="#redox-osredox-github-stars-language-last-tag-last-commit"&gt;#&lt;/a&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Redox is an operating system written in Rust&lt;/p&gt;
+&lt;h2 id="servoservo-github-stars-language-last-tag-last-commit"&gt;
+ &lt;a href="https://github.com/servo/servo"&gt;servo/servo&lt;/a&gt; &lt;img src="https://img.shields.io/github/stars/servo/servo.svg" alt="Github stars" /&gt; &lt;img src="https://img.shields.io/github/languages/top/servo/servo.svg" alt="Language" /&gt; &lt;img src="https://img.shields.io/github/v/tag/servo/servo.svg?sort=semver" alt="Last Tag" /&gt; &lt;img src="https://img.shields.io/github/last-commit/servo/servo.svg" alt="Last commit" /&gt;
+ 
+ &lt;a class="anchor" href="#servoservo-github-stars-language-last-tag-last-commit"&gt;#&lt;/a&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;The Servo Browser Engine&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://servo.org/"&gt;https://servo.org/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="rajasekarvvega-github-stars-language-last-tag-last-commit"&gt;
+ &lt;a href="https://github.com/rajasekarv/vega"&gt;rajasekarv/vega&lt;/a&gt; &lt;img src="https://img.shields.io/github/stars/rajasekarv/vega.svg" alt="Github stars" /&gt; &lt;img src="https://img.shields.io/github/languages/top/rajasekarv/vega.svg" alt="Language" /&gt; &lt;img src="https://img.shields.io/github/v/tag/rajasekarv/vega.svg?sort=semver" alt="Last Tag" /&gt; &lt;img src="https://img.shields.io/github/last-commit/rajasekarv/vega.svg" alt="Last commit" /&gt;
+ 
+ &lt;a class="anchor" href="#rajasekarvvega-github-stars-language-last-tag-last-commit"&gt;#&lt;/a&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;A new arguably faster implementation of Apache Spark from scratch in Rust&lt;/p&gt;</description></item></channel></rss>
